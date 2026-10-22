@@ -1,14 +1,13 @@
-</> JSON
 {
   "name": "nodejs-demo-app",
   "version": "1.0.0",
   "description": "Sample Node.js app for CI/CD",
   "main": "app.js",
   "scripts": {
-    "starts": "node app.js",
+    "start": "node app.js",
     "test": "node --test"
   },
-  "engines":{
-    "node": >=20"
+  "engines": {
+    "node": ">=20"
   }
 }
